@@ -2590,7 +2590,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@phantom/react-native-juicebox-sdk@*, @phantom/react-native-juicebox-sdk@workspace:.":
+"@phantom/react-native-juicebox-sdk@workspace:.":
   version: 0.0.0-use.local
   resolution: "@phantom/react-native-juicebox-sdk@workspace:."
   dependencies:
@@ -11054,7 +11054,6 @@ __metadata:
     "@babel/core": ^7.20.0
     "@babel/preset-env": ^7.20.0
     "@babel/runtime": ^7.20.0
-    "@phantom/react-native-juicebox-sdk": "*"
     "@react-native-async-storage/async-storage": ^1.19.4
     "@react-native/metro-config": ^0.72.11
     "@react-navigation/native": ^6.1.9
@@ -11081,7 +11080,6 @@ __metadata:
     "@babel/core": ^7.20.0
     "@babel/preset-env": ^7.20.0
     "@babel/runtime": ^7.20.0
-    "@phantom/react-native-juicebox-sdk": "*"
     "@react-native-async-storage/async-storage": ^1.19.3
     "@react-native/metro-config": ^0.72.11
     "@react-navigation/native": ^6.1.9

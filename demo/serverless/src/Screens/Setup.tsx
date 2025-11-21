@@ -22,7 +22,7 @@ import JuiceboxSdk, {
   PinHashingMode,
   RecoverError,
   RecoverErrorReason,
-} from '@phantom/react-native-juicebox-sdk';
+} from 'react-native-juicebox-sdk';
 // @ts-ignore
 import { randomBytes } from 'react-native-randombytes';
 import { CommonActions } from '@react-navigation/native';
@@ -111,7 +111,7 @@ const Setup = ({ navigation, route }) => {
   const configuration = {
     realms: [
       {
-        address: 'https://juicebox.rpcpool.com',
+        address: 'https://gcp.realms.juicebox.xyz',
         id: '9f105f0bf34461034df2ba67b17e5f43',
       },
       {
